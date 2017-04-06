@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C54C9DA1E96AB2900451405 /* TVCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C54C9D91E96AB2900451405 /* TVCommand.swift */; };
+		1C54C9DB1E96AB2900451405 /* TVCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C54C9D91E96AB2900451405 /* TVCommand.swift */; };
+		1C54C9DC1E96AB2900451405 /* TVCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C54C9D91E96AB2900451405 /* TVCommand.swift */; };
+		1C54C9DD1E96B77900451405 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C645D8B1E96A5AF00248E00 /* ViewController.swift */; };
+		1C54C9DE1E96B77900451405 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C645D8B1E96A5AF00248E00 /* ViewController.swift */; };
+		1C54C9E01E96C36200451405 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C54C9DF1E96C36200451405 /* AuthenticationViewController.swift */; };
+		1C54C9E11E96C36200451405 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C54C9DF1E96C36200451405 /* AuthenticationViewController.swift */; };
+		1C54C9E21E96C36200451405 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C54C9DF1E96C36200451405 /* AuthenticationViewController.swift */; };
 		1C645D8A1E96A5AF00248E00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C645D891E96A5AF00248E00 /* AppDelegate.swift */; };
 		1C645D8C1E96A5AF00248E00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C645D8B1E96A5AF00248E00 /* ViewController.swift */; };
 		1C645D8F1E96A5AF00248E00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C645D8D1E96A5AF00248E00 /* Main.storyboard */; };
@@ -14,6 +22,9 @@
 		1C645D941E96A5AF00248E00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C645D921E96A5AF00248E00 /* LaunchScreen.storyboard */; };
 		1C645D9F1E96A5AF00248E00 /* Bravia_TV_RemoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C645D9E1E96A5AF00248E00 /* Bravia_TV_RemoteTests.swift */; };
 		1C645DAA1E96A5AF00248E00 /* Bravia_TV_RemoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C645DA91E96A5AF00248E00 /* Bravia_TV_RemoteUITests.swift */; };
+		2E37FB5E5B26FA3F0F72BC2B /* Pods_Bravia_TV_RemoteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6857FA5C5E1B3F7FBECEA467 /* Pods_Bravia_TV_RemoteTests.framework */; };
+		776376E18C1CFB49BFC8782E /* Pods_Bravia_TV_RemoteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CB00DDCCE66588C7B57E56 /* Pods_Bravia_TV_RemoteUITests.framework */; };
+		E04CFFF65770C0EDE21D646A /* Pods_Bravia_TV_Remote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B72FAF259F151EC5461D97EF /* Pods_Bravia_TV_Remote.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0ECA90B2582925C948CBDE3D /* Pods-Bravia TV RemoteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bravia TV RemoteUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bravia TV RemoteUITests/Pods-Bravia TV RemoteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0FF769C178A9ADD87EE97AD5 /* Pods-Bravia TV RemoteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bravia TV RemoteUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bravia TV RemoteUITests/Pods-Bravia TV RemoteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1C54C9D91E96AB2900451405 /* TVCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVCommand.swift; sourceTree = "<group>"; };
+		1C54C9DF1E96C36200451405 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
 		1C645D861E96A5AF00248E00 /* Bravia TV Remote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bravia TV Remote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C645D891E96A5AF00248E00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C645D8B1E96A5AF00248E00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +62,13 @@
 		1C645DA51E96A5AF00248E00 /* Bravia TV RemoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bravia TV RemoteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C645DA91E96A5AF00248E00 /* Bravia_TV_RemoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bravia_TV_RemoteUITests.swift; sourceTree = "<group>"; };
 		1C645DAB1E96A5AF00248E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B676C683B3288B3CCE463CD /* Pods-Bravia TV RemoteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bravia TV RemoteTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bravia TV RemoteTests/Pods-Bravia TV RemoteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6857FA5C5E1B3F7FBECEA467 /* Pods_Bravia_TV_RemoteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bravia_TV_RemoteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BBCD460D5D57C84212F836A /* Pods-Bravia TV Remote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bravia TV Remote.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bravia TV Remote/Pods-Bravia TV Remote.release.xcconfig"; sourceTree = "<group>"; };
+		A9C38B55795577A0CAA6D557 /* Pods-Bravia TV Remote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bravia TV Remote.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bravia TV Remote/Pods-Bravia TV Remote.debug.xcconfig"; sourceTree = "<group>"; };
+		AACDE9E94414ED6A94D87BDE /* Pods-Bravia TV RemoteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bravia TV RemoteTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bravia TV RemoteTests/Pods-Bravia TV RemoteTests.release.xcconfig"; sourceTree = "<group>"; };
+		B72FAF259F151EC5461D97EF /* Pods_Bravia_TV_Remote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bravia_TV_Remote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3CB00DDCCE66588C7B57E56 /* Pods_Bravia_TV_RemoteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bravia_TV_RemoteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E04CFFF65770C0EDE21D646A /* Pods_Bravia_TV_Remote.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E37FB5E5B26FA3F0F72BC2B /* Pods_Bravia_TV_RemoteTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				776376E18C1CFB49BFC8782E /* Pods_Bravia_TV_RemoteUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +106,8 @@
 				1C645D9D1E96A5AF00248E00 /* Bravia TV RemoteTests */,
 				1C645DA81E96A5AF00248E00 /* Bravia TV RemoteUITests */,
 				1C645D871E96A5AF00248E00 /* Products */,
+				74B6B48969DD9135F2AFA347 /* Pods */,
+				9917CF15DC7DBD4EFFDA8F41 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +126,9 @@
 			children = (
 				1C645D891E96A5AF00248E00 /* AppDelegate.swift */,
 				1C645D8B1E96A5AF00248E00 /* ViewController.swift */,
+				1C54C9D91E96AB2900451405 /* TVCommand.swift */,
 				1C645D8D1E96A5AF00248E00 /* Main.storyboard */,
+				1C54C9DF1E96C36200451405 /* AuthenticationViewController.swift */,
 				1C645D901E96A5AF00248E00 /* Assets.xcassets */,
 				1C645D921E96A5AF00248E00 /* LaunchScreen.storyboard */,
 				1C645D951E96A5AF00248E00 /* Info.plist */,
@@ -125,6 +154,29 @@
 			path = "Bravia TV RemoteUITests";
 			sourceTree = "<group>";
 		};
+		74B6B48969DD9135F2AFA347 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9C38B55795577A0CAA6D557 /* Pods-Bravia TV Remote.debug.xcconfig */,
+				6BBCD460D5D57C84212F836A /* Pods-Bravia TV Remote.release.xcconfig */,
+				2B676C683B3288B3CCE463CD /* Pods-Bravia TV RemoteTests.debug.xcconfig */,
+				AACDE9E94414ED6A94D87BDE /* Pods-Bravia TV RemoteTests.release.xcconfig */,
+				0ECA90B2582925C948CBDE3D /* Pods-Bravia TV RemoteUITests.debug.xcconfig */,
+				0FF769C178A9ADD87EE97AD5 /* Pods-Bravia TV RemoteUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9917CF15DC7DBD4EFFDA8F41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B72FAF259F151EC5461D97EF /* Pods_Bravia_TV_Remote.framework */,
+				6857FA5C5E1B3F7FBECEA467 /* Pods_Bravia_TV_RemoteTests.framework */,
+				D3CB00DDCCE66588C7B57E56 /* Pods_Bravia_TV_RemoteUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C645DAE1E96A5AF00248E00 /* Build configuration list for PBXNativeTarget "Bravia TV Remote" */;
 			buildPhases = (
+				6AF2FEA742ED32D35B165E36 /* [CP] Check Pods Manifest.lock */,
 				1C645D821E96A5AF00248E00 /* Sources */,
 				1C645D831E96A5AF00248E00 /* Frameworks */,
 				1C645D841E96A5AF00248E00 /* Resources */,
+				058E1D7EE4A4469C5D615C9A /* [CP] Embed Pods Frameworks */,
+				9D4FE0D5FE5E39E4381C2499 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C645DB11E96A5AF00248E00 /* Build configuration list for PBXNativeTarget "Bravia TV RemoteTests" */;
 			buildPhases = (
+				06537E2B12A8CCBFAB8BDB48 /* [CP] Check Pods Manifest.lock */,
 				1C645D961E96A5AF00248E00 /* Sources */,
 				1C645D971E96A5AF00248E00 /* Frameworks */,
 				1C645D981E96A5AF00248E00 /* Resources */,
+				FC6695BBB1FE8379CCBDBC03 /* [CP] Embed Pods Frameworks */,
+				0396CEA568D1674F560071DD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C645DB41E96A5AF00248E00 /* Build configuration list for PBXNativeTarget "Bravia TV RemoteUITests" */;
 			buildPhases = (
+				AAB672B5A08DF53CE588E34A /* [CP] Check Pods Manifest.lock */,
 				1C645DA11E96A5AF00248E00 /* Sources */,
 				1C645DA21E96A5AF00248E00 /* Frameworks */,
 				1C645DA31E96A5AF00248E00 /* Resources */,
+				FC7044FF3FA0F19CE4DE9170 /* [CP] Embed Pods Frameworks */,
+				E73FB6B1FB61C4CD8AC9D24A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,13 +318,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0396CEA568D1674F560071DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bravia TV RemoteTests/Pods-Bravia TV RemoteTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		058E1D7EE4A4469C5D615C9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bravia TV Remote/Pods-Bravia TV Remote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		06537E2B12A8CCBFAB8BDB48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6AF2FEA742ED32D35B165E36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9D4FE0D5FE5E39E4381C2499 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bravia TV Remote/Pods-Bravia TV Remote-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAB672B5A08DF53CE588E34A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E73FB6B1FB61C4CD8AC9D24A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bravia TV RemoteUITests/Pods-Bravia TV RemoteUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC6695BBB1FE8379CCBDBC03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bravia TV RemoteTests/Pods-Bravia TV RemoteTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC7044FF3FA0F19CE4DE9170 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bravia TV RemoteUITests/Pods-Bravia TV RemoteUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1C645D821E96A5AF00248E00 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C54C9E01E96C36200451405 /* AuthenticationViewController.swift in Sources */,
 				1C645D8C1E96A5AF00248E00 /* ViewController.swift in Sources */,
 				1C645D8A1E96A5AF00248E00 /* AppDelegate.swift in Sources */,
+				1C54C9DA1E96AB2900451405 /* TVCommand.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +472,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C54C9E11E96C36200451405 /* AuthenticationViewController.swift in Sources */,
+				1C54C9DD1E96B77900451405 /* ViewController.swift in Sources */,
 				1C645D9F1E96A5AF00248E00 /* Bravia_TV_RemoteTests.swift in Sources */,
+				1C54C9DB1E96AB2900451405 /* TVCommand.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +483,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C54C9E21E96C36200451405 /* AuthenticationViewController.swift in Sources */,
+				1C54C9DE1E96B77900451405 /* ViewController.swift in Sources */,
 				1C645DAA1E96A5AF00248E00 /* Bravia_TV_RemoteUITests.swift in Sources */,
+				1C54C9DC1E96AB2900451405 /* TVCommand.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +622,7 @@
 		};
 		1C645DAF1E96A5AF00248E00 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9C38B55795577A0CAA6D557 /* Pods-Bravia TV Remote.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KF3JR6832Y;
@@ -428,6 +636,7 @@
 		};
 		1C645DB01E96A5AF00248E00 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BBCD460D5D57C84212F836A /* Pods-Bravia TV Remote.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KF3JR6832Y;
@@ -441,6 +650,7 @@
 		};
 		1C645DB21E96A5AF00248E00 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B676C683B3288B3CCE463CD /* Pods-Bravia TV RemoteTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +666,7 @@
 		};
 		1C645DB31E96A5AF00248E00 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AACDE9E94414ED6A94D87BDE /* Pods-Bravia TV RemoteTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +682,7 @@
 		};
 		1C645DB51E96A5AF00248E00 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ECA90B2582925C948CBDE3D /* Pods-Bravia TV RemoteUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = KF3JR6832Y;
@@ -485,6 +697,7 @@
 		};
 		1C645DB61E96A5AF00248E00 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FF769C178A9ADD87EE97AD5 /* Pods-Bravia TV RemoteUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = KF3JR6832Y;
@@ -516,6 +729,7 @@
 				1C645DB01E96A5AF00248E00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C645DB11E96A5AF00248E00 /* Build configuration list for PBXNativeTarget "Bravia TV RemoteTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +738,7 @@
 				1C645DB31E96A5AF00248E00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C645DB41E96A5AF00248E00 /* Build configuration list for PBXNativeTarget "Bravia TV RemoteUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +747,7 @@
 				1C645DB61E96A5AF00248E00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
